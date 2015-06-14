@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Reproducible Research - Course Project  
 ### Hovig Charchaflian - June 2015  
 
@@ -119,3 +120,30 @@ weekdayMean<-aggregate(fillData$steps,list(interval=as.numeric(as.character(fill
 names(weekdayMean)[3]<-"stepsMean"
 xyplot(weekdayMean$stepsMean ~ weekdayMean$interval | weekdayMean$weekdays, layout = c(1, 2), type = "l", xlab = "Interval", ylab = "Number of steps")
 ```
+=======
+---
+title: "Reproducible Research: Peer Assessment 1"
+output: 
+  html_document:
+    keep_md: true
+---
+
+
+## Loading and preprocessing the data
+
+
+
+## What is mean total number of steps taken per day?
+
+
+
+## What is the average daily activity pattern?
+
+
+
+## Imputing missing values
+
+
+
+## Are there differences in activity patterns between weekdays and weekends?
+>>>>>>> 80edf39c3bb508fee88e3394542f967dd3fd3270
